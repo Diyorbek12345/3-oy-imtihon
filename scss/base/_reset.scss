@@ -1,0 +1,33 @@
+html{
+  box-sizing: border-box;
+}
+*,*::before,*::after{
+  box-sizing: inherit;
+}
+h1,h2,h3,h4,h5,h6,p{
+  margin: 0;
+}
+ul,ol{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  display: inline-block;
+}
+img{
+  width: 100%;
+  height: 100%;
+  // object-fit: cover;
+}
+body{
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+.container{
+  max-width: 1460px;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
