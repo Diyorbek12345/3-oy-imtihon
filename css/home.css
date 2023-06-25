@@ -289,7 +289,7 @@ header {
 }
 
 .dishes__cost {
-  color: var(--qizil, #BB2339);
+  color: var(--qizil, #bb2339);
   text-align: center;
   font-size: 24px;
   font-family: Open Sans;
@@ -302,7 +302,7 @@ header {
 
 .menu__title {
   margin-bottom: 70px;
-  color: var(--qizil, #BB2339);
+  color: var(--qizil, #bb2339);
   font-size: 48px;
   font-family: Cera Round Pro;
   font-weight: 500;
@@ -321,7 +321,7 @@ header {
   text-decoration: none;
   padding: 10px 30px;
   border-radius: 100px;
-  border: 1px solid var(--qizil, #BB2339);
+  border: 1px solid var(--qizil, #bb2339);
 }
 
 .btns {
@@ -330,6 +330,72 @@ header {
 
 .menu__btns:hover {
   color: #fff;
-  background-color: #BB2339;
+  background-color: #bb2339;
   transition: 0.5s;
+}
+
+.menu__item {
+  max-width: 270px;
+  border-radius: 14px;
+  border: 1px solid rgba(36, 36, 36, 0.1);
+  background: #FFF;
+  margin-bottom: 30px;
+  transform: skewY(10deg);
+}
+
+.menu__item:hover {
+  background-color: #bb2339;
+  color: #FFF;
+  transition: 1s;
+  transition-delay: 0.1s;
+  transform: skewY(0deg);
+}
+
+.menu__item:hover .menu__text {
+  color: #FFF;
+}
+
+.menu__item:hover .menu__cost {
+  color: #FFF;
+}
+
+.menu__item:hover .menu__img {
+  transform: scale(1.1) rotate(360deg);
+  transition: 1s;
+}
+
+.menu__img-block {
+  max-width: 108px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.menu__img {
+  max-width: 270px;
+  margin-bottom: 10px;
+}
+
+.menu__text {
+  max-width: 270px;
+  color: #242424;
+  text-align: center;
+  font-size: 18px;
+  font-family: Open Sans;
+  font-weight: 600;
+}
+
+.menu__cost {
+  color: var(--qizil, #bb2339);
+  text-align: center;
+  font-size: 24px;
+  font-family: Open Sans;
+  font-weight: 700;
+  margin-left: 0;
+  margin-top: 30px;
+}
+
+.menu__list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 60px;
 }
