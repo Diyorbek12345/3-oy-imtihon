@@ -34,7 +34,7 @@ body {
 }
 
 .container {
-  max-width: 1460px;
+  max-width: 1510px;
   margin: 0 auto;
   padding-left: 20px;
   padding-right: 20px;
@@ -199,11 +199,10 @@ header {
 .hero_img {
   max-width: 1000px;
   padding-top: 89px;
-  padding-bottom: 237px;
 }
 
 .dishes__title {
-  color: #BB2339;
+  color: #bb2339;
   font-size: 48px;
   font-family: Cera Round Pro;
   font-weight: 500;
@@ -230,4 +229,107 @@ header {
     margin-right: auto;
     flex-shrink: 0;
   }
+}
+.dishes__container {
+  background-color: #f8f8f8;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.dishes__title {
+  color: var(--qizil, #bb2339);
+  font-size: 48px;
+  font-family: Cera Round Pro;
+  font-weight: 500;
+  letter-spacing: 1.44px;
+  text-transform: capitalize;
+  margin-bottom: 40px;
+}
+
+.owl-carousel {
+  padding-bottom: 30px;
+}
+
+.dishes {
+  padding-bottom: 120px;
+}
+
+.dishes__img-block {
+  max-width: 108px;
+}
+
+.item {
+  max-width: 310px;
+  background-color: #fff;
+  border-radius: 14px;
+}
+
+.dishes__wrapper {
+  text-align: center;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+
+.dishes__img-block {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.dishes__subtitle {
+  color: #242424;
+  text-align: center;
+  font-size: 18px;
+  font-family: Open Sans;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.dishes__cost {
+  color: var(--qizil, #BB2339);
+  text-align: center;
+  font-size: 24px;
+  font-family: Open Sans;
+  font-weight: 700;
+}
+
+.menu__container {
+  background-color: #fff;
+}
+
+.menu__title {
+  margin-bottom: 70px;
+  color: var(--qizil, #BB2339);
+  font-size: 48px;
+  font-family: Cera Round Pro;
+  font-weight: 500;
+  letter-spacing: 1.44px;
+  text-transform: capitalize;
+}
+
+.menu__btns {
+  color: #242424;
+  font-size: 16px;
+  font-family: Open Sans;
+  font-weight: 600;
+  line-height: 175%;
+  letter-spacing: 0.8px;
+  text-transform: capitalize;
+  text-decoration: none;
+  padding: 10px 30px;
+  border-radius: 100px;
+  border: 1px solid var(--qizil, #BB2339);
+}
+
+.btns {
+  padding-right: 20px;
+}
+
+.menu__btns:hover {
+  color: #fff;
+  background-color: #BB2339;
+  transition: 0.5s;
 }
