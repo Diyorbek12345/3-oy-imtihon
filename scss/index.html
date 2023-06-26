@@ -7,6 +7,20 @@
     <title>Imtihon</title>
     <link
       rel="stylesheet"
+      href="https:cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+     <link
+      rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
       integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
       crossorigin="anonymous"
@@ -57,7 +71,7 @@
                 >
               </li>
             </ul>
-            <a class="main_header__btn" href="#">Log in</a>
+            <a class="main_header__btn" href="news.html">Log in</a>
             <button
               class="navbar-toggler"
               type="button"
@@ -211,39 +225,24 @@
       <section id="menu">
         <div class="container menu__container">
 
-          <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
-  <li class="nav-item" role="presentation">
-    <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Home</button>
-  </li>
-  <li class="nav-item" role="presentation">
-    <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Profile</button>
-  </li>
-  <li class="nav-item" role="presentation">
-    <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Contact</button>
-  </li>
-  <li class="nav-item" role="presentation">
-    <button class="nav-link" id="pills-disabled-tab" data-bs-toggle="pill" data-bs-target="#pills-disabled" type="button" role="tab" aria-controls="pills-disabled" aria-selected="false" disabled>Disabled</button>
-  </li>
-</ul>
-<div class="tab-content" id="pills-tabContent">
-  <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">...</div>
-  <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">...</div>
-  <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">...</div>
-  <div class="tab-pane fade" id="pills-disabled" role="tabpanel" aria-labelledby="pills-disabled-tab" tabindex="0">...</div>
-</div>
+          
           <h2 class="menu__title">Our Regular Menu Pack</h2>
-          <div class="btns">
-            <a class="menu__btns btn1" href="#">all</a>
-            <a class="menu__btns btn2" href="#">Shawarma</a>
-            <a class="menu__btns btn3" href="#">Turk Kebab</a>
-            <a class="menu__btns btn4" href="#">Hamburger Kebab</a>
-            <a class="menu__btns btn5" href="#">Doner kebab</a>
-            <a class="menu__btns btn6" href="#">Shish kebab</a>
-            <a class="menu__btns btn7" href="#">French fries Pizza</a>
-            <a class="menu__btns btn8" href="#">Desserts</a>
-          </div>
-          <ul class="menu__list">
-            <li class="menu__item">
+          <nav>
+  <div class="nav nav-tabs" id="nav-tab" role="tablist">
+    <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">all</button>
+    <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Shawarma</button>
+    <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Turk Kebab</button>
+    <button class="nav-link" id="nav-hamburger Kebab-tab" data-bs-toggle="tab" data-bs-target="#nav-hamburger Kebab" type="button" role="tab" aria-controls="nav-hamburger Kebab" aria-selected="false">Hamburger Kebab</button>
+    <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Doner kebab</button>
+    <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Shish kebab</button>
+    <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">French fries Pizza</button>
+    <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Desserts</button>
+  </div>
+</nav>
+<div class="tab-content" id="nav-tabContent">
+  <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">
+    <ul class="menu__list">
+            <li class="menu__item item1">
               <div class="menu__wrapper">
                 <div class="menu__img">
                   <img src="../img/menu__kebab1.png" alt="menu__meals_img" />
@@ -252,7 +251,7 @@
                 <p class="menu__cost">$12.00</p>
               </div>
             </li>
-            <li class="menu__item">
+            <li class="menu__item item2">
               <div class="menu__wrapper">
                 <div class="menu__img">
                   <img
@@ -264,7 +263,7 @@
                 <p class="menu__cost">$12.00</p>
               </div>
             </li>
-            <li class="menu__item">
+            <li class="menu__item item3">
               <div class="menu__wrapper">
                 <div class="menu__img">
                   <img src="../img/menu__lavash__img.png" alt="menu__meals_img" />
@@ -273,7 +272,7 @@
                 <p class="menu__cost">$12.00</p>
               </div>
             </li>
-            <li class="menu__item">
+            <li class="menu__item item4">
               <div class="menu__wrapper">
                 <div class="menu__img">
                   <img src="../img/menu__bishteks.png" alt="menu__meals_img" />
@@ -282,7 +281,7 @@
                 <p class="menu__cost">$12.00</p>
               </div>
             </li>
-            <li class="menu__item">
+            <li class="menu__item item5">
               <div class="menu__wrapper">
                 <div class="menu__img">
                   <img src="../img/dishes__pizza_img.png" alt="menu__meals_img" />
@@ -291,7 +290,7 @@
                 <p class="menu__cost">$12.00</p>
               </div>
             </li>
-            <li class="menu__item">
+            <li class="menu__item item6">
               <div class="menu__wrapper">
                 <div class="menu__img">
                   <img src="../img/menu__sandwiches.png" alt="menu__meals_img" />
@@ -300,16 +299,16 @@
                 <p class="menu__cost">$12.00</p>
               </div>
             </li>
-            <li class="menu__item">
+            <li class="menu__item item7">
               <div class="menu__wrapper">
                 <div class="menu__img">
-                  <img src="../img/menu__shaurma.png" alt="menu__meals_img" />
+                  <img src="../img/cards__main-img.png" alt="menu__meals_img" />
                 </div>
                 <p class="menu__text">Barbecue Shish kebab Shashlik Skewer</p>
                 <p class="menu__cost">$12.00</p>
               </div>
             </li>
-            <li class="menu__item">
+            <li class="menu__item item8">
               <div class="menu__wrapper">
                 <div class="menu__img">
                   <img src="../img/menu__hamburger.png" alt="menu__meals_img" />
@@ -318,7 +317,7 @@
                 <p class="menu__cost">$12.00</p>
               </div>
             </li>
-            <li class="menu__item">
+            <li class="menu__item item9">
               <div class="menu__wrapper">
                 <div class="menu__img">
                   <img src="../img/menu__hot-dog.png" alt="menu__meals_img" />
@@ -327,7 +326,7 @@
                 <p class="menu__cost">$12.00</p>
               </div>
             </li>
-            <li class="menu__item">
+            <li class="menu__item item10">
               <div class="menu__wrapper">
                 <div class="menu__img">
                   <img src="../img/menu__kebab2.png" alt="menu__meals_img" />
@@ -336,7 +335,7 @@
                 <p class="menu__cost">$12.00</p>
               </div>
             </li>
-            <li class="menu__item">
+            <li class="menu__item item11">
               <div class="menu__wrapper">
                 <div class="menu__img">
                   <img
@@ -348,7 +347,7 @@
                 <p class="menu__cost">$12.00</p>
               </div>
             </li>
-            <li class="menu__item">
+            <li class="menu__item item12">
               <div class="menu__wrapper">
                 <div class="menu__img">
                   <img src="../img/menu__bishteks.png" alt="menu__meals_img" />
@@ -358,9 +357,355 @@
               </div>
             </li>
           </ul>
+  </div>
+  <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" tabindex="0">
+   <ul class="menu__list">
+      <li class="menu__item item3">
+              <div class="menu__wrapper">
+                <div class="menu__img">
+                  <img src="../img/menu__lavash__img.png" alt="menu__meals_img" />
+                </div>
+                <p class="menu__text">Barbecue Shish kebab Shashlik Skewer</p>
+                <p class="menu__cost">$12.00</p>
+              </div>
+            </li>
+            <li class="menu__item item6">
+              <div class="menu__wrapper">
+                <div class="menu__img">
+                  <img src="../img/menu__sandwiches.png" alt="menu__meals_img" />
+                </div>
+                <p class="menu__text">Barbecue Shish kebab Shashlik Skewer</p>
+                <p class="menu__cost">$12.00</p>
+              </div>
+            </li>
+            <li class="menu__item item7">
+              <div class="menu__wrapper">
+                <div class="menu__img">
+                  <img src="../img/cards__main-img.png" alt="menu__meals_img" />
+                </div>
+                <p class="menu__text">Barbecue Shish kebab Shashlik Skewer</p>
+                <p class="menu__cost">$12.00</p>
+              </div>
+            </li>
+             <li class="menu__item item9">
+              <div class="menu__wrapper">
+                <div class="menu__img">
+                  <img src="../img/menu__hot-dog.png" alt="menu__meals_img" />
+                </div>
+                <p class="menu__text">Barbecue Shish kebab Shashlik Skewer</p>
+                <p class="menu__cost">$12.00</p>
+              </div>
+            </li>
+   </ul>
+  </div>
+  <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab" tabindex="0">
+    <ul class="menu__list">
+         <li class="menu__item item1">
+              <div class="menu__wrapper">
+                <div class="menu__img">
+                  <img src="../img/menu__kebab1.png" alt="menu__meals_img" />
+                </div>
+                <p class="menu__text">Barbecue Shish kebab Shashlik Skewer</p>
+                <p class="menu__cost">$12.00</p>
+              </div>
+            </li>
+             <li class="menu__item item10">
+              <div class="menu__wrapper">
+                <div class="menu__img">
+                  <img src="../img/menu__kebab2.png" alt="menu__meals_img" />
+                </div>
+                <p class="menu__text">Barbecue Shish kebab Shashlik Skewer</p>
+                <p class="menu__cost">$12.00</p>
+              </div>
+            </li>
+            <li class="menu__item item11">
+              <div class="menu__wrapper">
+                <div class="menu__img">
+                  <img
+                    src="../img/dishes__kebab_img1.png"
+                    alt="menu__meals_img"
+                  />
+                </div>
+                <p class="menu__text">Barbecue Shish kebab Shashlik Skewer</p>
+                <p class="menu__cost">$12.00</p>
+              </div>
+            </li>
+            <li class="menu__item item12">
+              <div class="menu__wrapper">
+                <div class="menu__img">
+                  <img src="../img/menu__bishteks.png" alt="menu__meals_img" />
+                </div>
+                <p class="menu__text">Barbecue Shish kebab Shashlik Skewer</p>
+                <p class="menu__cost">$12.00</p>
+              </div>
+            </li>
+    </ul>
+  </div>
+  <div class="tab-pane fade" uzb id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab" tabindex="0">
+    <ul class="menu__list">
+       <li class="menu__item item3">
+              <div class="menu__wrapper">
+                <div class="menu__img">
+                  <img src="../img/menu__lavash__img.png" alt="menu__meals_img" />
+                </div>
+                <p class="menu__text">Barbecue Shish kebab Shashlik Skewer</p>
+                <p class="menu__cost">$12.00</p>
+              </div>
+            </li>
+            
+    </ul>
+  </div>
+    <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab" tabindex="0">
+         <ul class="menu__list">
+        <li class="menu__item item7">
+              <div class="menu__wrapper">
+                <div class="menu__img">
+                  <img src="../img/cards__main-img.png" alt="menu__meals_img" />
+                </div>
+                <p class="menu__text">Barbecue Shish kebab Shashlik Skewer</p>
+                <p class="menu__cost">$12.00</p>
+              </div>
+            </li>
+            <li class="menu__item item8">
+              <div class="menu__wrapper">
+                <div class="menu__img">
+                  <img src="../img/menu__hamburger.png" alt="menu__meals_img" />
+                </div>
+                <p class="menu__text">Barbecue Shish kebab Shashlik Skewer</p>
+                <p class="menu__cost">$12.00</p>
+              </div>
+            </li>
+            <li class="menu__item item9">
+              <div class="menu__wrapper">
+                <div class="menu__img">
+                  <img src="../img/menu__hot-dog.png" alt="menu__meals_img" />
+                </div>
+                <p class="menu__text">Barbecue Shish kebab Shashlik Skewer</p>
+                <p class="menu__cost">$12.00</p>
+              </div>
+            </li>
+            <li class="menu__item item10">
+              <div class="menu__wrapper">
+                <div class="menu__img">
+                  <img src="../img/menu__kebab2.png" alt="menu__meals_img" />
+                </div>
+                <p class="menu__text">Barbecue Shish kebab Shashlik Skewer</p>
+                <p class="menu__cost">$12.00</p>
+              </div>
+            </li>
+            <li class="menu__item item11">
+              <div class="menu__wrapper">
+                <div class="menu__img">
+                  <img
+                    src="../img/dishes__kebab_img1.png"
+                    alt="menu__meals_img"
+                  />
+                </div>
+                <p class="menu__text">Barbecue Shish kebab Shashlik Skewer</p>
+                <p class="menu__cost">$12.00</p>
+              </div>
+            </li>
+              
+    </ul>
+      </div>
+    </div>
+      <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab" tabindex="0">
+             <ul class="menu__list">
+      
+    </ul>
+      </div>
+        <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab" tabindex="0">...</div>
+          <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab" tabindex="0">...</div>
+</div>
+        </div>
+      </section>
+      <section id="customers">
+        <div class="container customers__container">
+          <div class="customers__wrapper">
+            <p class="customers__word">Testimony</p>
+            <div class="customers__img">
+              <img src="../img/customers__vector.png" alt="customers__img">
+            </div>
+           <h2 class="customers__title">Happy customers</h2>
+           <div class="owl-carousel owl-theme">
+           <div class="item">
+            <div class="customers__wrapper">
+              <h3 class="customers__subtitle">Maria</h3>
+              <p class="customers__text">Lorem ipsum dolor sit amet, consectetur adipiscing sit. auctor sit iaculis in arcu. Vulputate nulla lobortis mauris eget sit. Nulla scelerisque scelerisq...</p>
+              <div class="customers__dates">
+                <span class="customers__calendar">
+                  <div class="customers__img__block2">
+                    <img src="../img/customers__calendar.svg" alt="img">
+                  </div>
+                  <p class="customers__date">06/02/2022</p>
+                </span>
+                 <span class="customers__oclock">
+                  <div class="customers__img__block2">
+                    <img src="../img/customers__Clock.svg" alt="img">
+                  </div>
+                  <p class="customers__date">11:15</p>
+                </span>
+                <span class="customers__views">
+                    <div class="customers__img__block2">
+                    <img src="../img/customers__eye.svg" alt="img">
+                  </div>
+                  <p class="customers__date">222</p>
+                </span>
+              </div>
+            </div>
+           </div>
+           <div class="item">
+            <div class="item">
+            <div class="customers__wrapper">
+              <h3 class="customers__subtitle">Maria</h3>
+              <p class="customers__text">Я всегда был  самым худым и щуплым ребенком среди своих сверстников. Я всегда мечтал стать как мой кумир и иметь интерес...</p>
+              <div class="customers__dates">
+                <span class="customers__calendar">
+                  <div class="customers__img__block2">
+                    <img src="../img/customers__calendar.svg" alt="img">
+                  </div>
+                  <p class="customers__date">06/02/2022</p>
+                </span>
+                 <span class="customers__oclock">
+                  <div class="customers__img__block2">
+                    <img src="../img/customers__Clock.svg" alt="img">
+                  </div>
+                  <p class="customers__date">11:15</p>
+                </span>
+                <span class="customers__views">
+                    <div class="customers__img__block2">
+                    <img src="../img/customers__eye.svg" alt="img">
+                  </div>
+                  <p class="customers__date">222</p>
+                </span>
+              </div>
+            </div>
+           </div>
+           </div>
+           <div class="item">
+            <div class="item">
+            <div class="customers__wrapper">
+              <h3 class="customers__subtitle">Maria</h3>
+              <p class="customers__text">Я всегда был  самым худым и щуплым ребенком среди своих сверстников. Я всегда мечтал стать как мой кумир и иметь интерес...</p>
+              <div class="customers__dates">
+                <span class="customers__calendar">
+                  <div class="customers__img__block2">
+                    <img src="../img/customers__calendar.svg" alt="img">
+                  </div>
+                  <p class="customers__date">06/02/2022</p>
+                </span>
+                 <span class="customers__oclock">
+                  <div class="customers__img__block2">
+                    <img src="../img/customers__Clock.svg" alt="img">
+                  </div>
+                  <p class="customers__date">11:15</p>
+                </span>
+                <span class="customers__views">
+                    <div class="customers__img__block2">
+                    <img src="../img/customers__eye.svg" alt="img">
+                  </div>
+                  <p class="customers__date">222</p>
+                </span>
+              </div>
+            </div>
+           </div>
+           </div>
+           </div>
+          </div>
+        </div>
+      </section>
+      <section id="cards">
+        <div class="container cards__container">
+           <p class="cards__word">News</p>
+           <div class="cards__img">
+            <img src="../img/Vector (1).png" alt="cards__img">
+           </div>
+           <h2 class="cards__title">Gerícht updates</h2>
+           <ul class="cards__list">
+            <li class="cards__item">
+              <div class="cards__img__block">
+                <img src="../img/cards__main-img1.png" alt="img">
+              </div>
+                <div class="cards__wrapper">
+                <h3 class="cards__subtitle">tips for prepping and caring for your grill</h3>
+              <p class="cards__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat mattis ipsum turpis elit elit scelerisque egestas mus in.</p>
+              <div class="cards__btns">
+                <a href="about.html">Read More</a>
+                <p class="cards__date">16 Apr 2021</p>
+              </div>
+              </div>
+            </li>
+            <li class="cards__item">
+              <div class="cards__img__block">
+                <img src="../img/cards__main-img1.png" alt="img">
+              </div>
+                <div class="cards__wrapper">
+                <h3 class="cards__subtitle">tips for prepping and caring for your grill</h3>
+              <p class="cards__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat mattis ipsum turpis elit elit scelerisque egestas mus in.</p>
+              <div class="cards__btns">
+                <a href="about.html">Read More</a>
+                <p class="cards__date">16 Apr 2021</p>
+              </div>
+              </div>
+            </li>
+            <li class="cards__item">
+              <div class="cards__img__block">
+                <img src="../img/cards__main-img1.png" alt="img">
+              </div>
+                <div class="cards__wrapper">
+                <h3 class="cards__subtitle">tips for prepping and caring for your grill</h3>
+              <p class="cards__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat mattis ipsum turpis elit elit scelerisque egestas mus in.</p>
+              <div class="cards__btns">
+                <a href="about.html">Read More</a>
+                <p class="cards__date">16 Apr 2021</p>
+              </div>
+              </div>
+            </li>
+           </ul>
+           <a class="cards__btn" href="news.html">View More</a>
+          </div>
+      </section>
+      <section id="video">
+        <div class="container video__container">
+       <!-- Button trigger modal -->
+<button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  <img src="../img/Play.png" alt="video__img">
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal video</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+     <iframe width="450" height="315" src="https://www.youtube.com/embed/ly36kn0ug4k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+      <div class="modal-footer">
+        <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button> -->
+        <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+      </div>
+    </div>
+  </div>
+</div>
+
         </div>
       </section>
     </main>
+      <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
+      integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
       integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
@@ -382,8 +727,8 @@
       $(".owl-carousel").owlCarousel({
         loop: true,
         margin: 10,
-        autoplay: true,
-        autoplayTimeout: 1000,
+         autoplay: true,
+         autoplayTimeout: 1000,
         nav: false,
         dots: false,
         responsive: {
@@ -391,10 +736,30 @@
             items: 1,
           },
           600: {
-            items: 3,
+            items: 1,
           },
           1000: {
-            items: 4,
+            items: 3,
+          },
+        },
+      });
+        type="text/javascript">
+      $(".owl-carousel").owlCarousel({
+        loop: true,
+        margin: 35,
+         autoplay: true,
+         autoplayTimeout: 1000,
+        nav: true,
+        dots: false,
+        responsive: {
+          0: {
+            items: 1,
+          },
+          600: {
+            items: 2,
+          },
+          1000: {
+            items: 3,
           },
         },
       });
