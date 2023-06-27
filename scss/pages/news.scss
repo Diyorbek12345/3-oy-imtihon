@@ -231,6 +231,7 @@ text-transform: capitalize;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 35px;
+  margin-bottom: 300px;
 }
 
 @media screen and (max-width: 1000px) {
@@ -255,6 +256,7 @@ text-transform: capitalize;
 
 #main_footer {
   padding-top: 341px;
+  background-color: #bb2339;
 }
 
 .main_footer__subtitle {
@@ -431,7 +433,8 @@ text-transform: capitalize;
   margin-right: auto;
   padding: 64px 150px;
   border-radius: 20px;
-  margin-top: -240px;
+  margin-top: 200px;
+  margin-top: -600px;
   border: 1px solid rgba(255, 255, 255, 0.4);
   background: var(--qizil, #bb2339);
   box-shadow: 22px 30px 95px 1px rgba(86, 86, 86, 0.2);

@@ -822,8 +822,9 @@ header {
 
 /*footer*/
 
-#main_footer__container {
+#main_footer {
   padding-top: 341px;
+  background-color: #bb2339;
 }
 
 .main_footer__subtitle {
@@ -980,7 +981,7 @@ header {
   color: var(--aaaaaa, #aaa);
   text-align: center;
   font-size: 16px;
-  font-family: 'inter';
+  font-family: "inter";
   font-weight: 500;
   line-height: 175%;
   letter-spacing: 0.64px;
@@ -1000,7 +1001,7 @@ header {
   margin-right: auto;
   padding: 64px 150px;
   border-radius: 20px;
-  margin-top: -240px;
+  margin-top: -600px;
   border: 1px solid rgba(255, 255, 255, 0.4);
   background: var(--qizil, #bb2339);
   box-shadow: 22px 30px 95px 1px rgba(86, 86, 86, 0.2);
@@ -1050,16 +1051,18 @@ header {
   }
 }
 
-@media screen and (max-width:510px){
-   .footer__input {
+@media screen and (max-width: 510px) {
+  .footer__input {
     margin-left: -120px;
   }
 }
-@media screen and (max-width:500px) {
-     .footer__input {
+@media screen and (max-width: 500px) {
+  .footer__input {
     margin-left: -148px;
   }
-   .main_footer__wrapper-btn{
+  .main_footer__wrapper-btn {
     margin-left: -20px;
-   }
+  }
 }
+
+
