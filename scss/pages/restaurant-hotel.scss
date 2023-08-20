@@ -1,13 +1,16 @@
 @import "../global";
 
 .container {
-  background-color: #bb2339;
   padding-top: 26px;
   padding-bottom: 27px;
 }
 
 .main_header__btn {
   padding-right: 200px;
+}
+
+.navbar {
+  background-color: #bb2339;
 }
 
 header {
@@ -113,7 +116,7 @@ header {
   margin-bottom: 70px;
 }
 
-.hero__word{
+.hero__word {
   color: #bb2339;
   font-size: 14px;
   font-family: Open Sans;
@@ -394,7 +397,7 @@ header {
   color: var(--aaaaaa, #aaa);
   text-align: center;
   font-size: 16px;
-  font-family: 'inter';
+  font-family: "inter";
   font-weight: 500;
   line-height: 175%;
   letter-spacing: 0.64px;
@@ -436,7 +439,7 @@ header {
   letter-spacing: 0.64px;
 }
 
-.main_footer__logo{
+.main_footer__logo {
   margin-left: 30px;
 }
 
@@ -468,16 +471,16 @@ header {
   }
 }
 
-@media screen and (max-width:510px){
-   .footer__input {
+@media screen and (max-width: 510px) {
+  .footer__input {
     margin-left: -120px;
   }
 }
-@media screen and (max-width:500px) {
-     .footer__input {
+@media screen and (max-width: 500px) {
+  .footer__input {
     margin-left: -148px;
   }
-   .main_footer__wrapper-btn{
+  .main_footer__wrapper-btn {
     margin-left: -20px;
-   }
+  }
 }

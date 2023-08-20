@@ -134,7 +134,7 @@ body {
           box-sizing: content-box;
 }
 
-.container {
+#header {
   background-color: #bb2339;
   padding-top: 26px;
   padding-bottom: 27px;
@@ -147,6 +147,10 @@ body {
 header {
   padding-bottom: 0;
   margin-bottom: 0;
+}
+
+.navbar {
+  background-color: #bb2339;
 }
 
 .navbar-toggler {

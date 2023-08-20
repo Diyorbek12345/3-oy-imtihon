@@ -1,6 +1,6 @@
 @import "../global";
 
-.container {
+#header {
   background-color: #bb2339;
   padding-top: 26px;
   padding-bottom: 27px;
@@ -13,6 +13,11 @@
 header {
   padding-bottom: 0;
   margin-bottom: 0;
+}
+
+.navbar{
+  background-color: #bb2339;
+
 }
 
 .navbar-toggler {
@@ -1065,29 +1070,33 @@ header {
   }
 }
 
-#loading{
-position: fixed;
-top: 0;
-bottom: 0;
-left: 0;
-right: 0;
-z-index: 1000;
-background-color:#fff;
-display: flex;
-align-items: center;
-justify-content: center;
-opacity: 1;
-transition: 0.8s;
+#loading {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 1;
+  transition: 0.8s;
 }
 
-#loading.loading-none{
+#loading.loading-none {
   opacity: 0;
   z-index: -1;
 }
 
 @keyframes ldio-xzmvm3064f {
-  0% { transform: scale(1.1500000000000001) }
-  100% { transform: scale(1) }
+  0% {
+    transform: scale(1.1500000000000001);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
 .ldio-xzmvm3064f div {
   position: absolute;
@@ -1096,7 +1105,7 @@ transition: 0.8s;
   top: 13.333333333333336px;
   left: 13.333333333333336px;
   background: #e15b64;
-  animation: ldio-xzmvm3064f 1s cubic-bezier(0,0.5,0.5,1) infinite;
+  animation: ldio-xzmvm3064f 1s cubic-bezier(0, 0.5, 0.5, 1) infinite;
   animation-delay: -0.3s;
 }
 .ldio-xzmvm3064f div:nth-child(2) {
@@ -1132,4 +1141,6 @@ transition: 0.8s;
   backface-visibility: hidden;
   transform-origin: 0 0; /* see note above */
 }
-.ldio-xzmvm3064f div { box-sizing: content-box; }
+.ldio-xzmvm3064f div {
+  box-sizing: content-box;
+}
